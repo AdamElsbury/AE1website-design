@@ -1,0 +1,142 @@
+/* Fluid Grid */
+
+.wrapper {
+  display: table;
+  width: 100%;
+  text-align: center;
+  font-family: "Arial";
+}
+.col-1 {
+  width: 6.25%
+}
+.col-2 {
+  width: 12.50%
+}
+.col-3 {
+  width: 18.75%
+}
+.col-4 {
+  width: 25%
+}
+.col-5 {
+  width: 31.25%
+}
+.col-6 {
+  width: 37.5%
+}
+.col-7 {
+  width: 43.75%
+}
+.col-8 {
+  width: 50%
+}
+.col-9 {
+  width: 56.25%
+}
+.col-10 {
+  width: 62.5%
+}
+.col-11 {
+  width: 68.75%
+}
+.col-12 {
+  width: 75%
+}
+.col-13 {
+  width: 81.25%
+}
+.col-14 {
+  width: 87.5%
+}
+.col-15 {
+  width: 93.75%
+}
+.col-16 {
+  width: 100%
+}
+[class*='col-'] {
+  float: left;
+  padding-right: 10px;
+  border-style: solid;
+  border-color: white;
+ }
+* {
+  box-sizing: border-box;
+}
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+.row:before, 
+.row:after {
+     content:"";
+     clear:both;
+ }
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+
+/* Fluid Grid end */
+
+/* Navigation bar top */
+
+/*Strip the ul of padding and list styling*/
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+/*Create a horizontal list with spacing*/
+li {
+    display:inline-block;
+    float: left;
+    
+}
+/*Style for menu links*/
+li a {
+    display:block;
+    min-width:140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #1B242F;
+    text-decoration: none;
+    border-bottom: 3px solid #04C2C9;
+}
+/*Hover state for top level links*/
+li:hover a {
+    background: #19c589;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+    width: auto;
+    min-width: 100px;
+    
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 760px){
+    /*Make dropdown links appear inline*/
+    ul {
+        position: static;
+        display: none;
+    }
+    /*Create vertical spacing*/
+    li {
+        margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+    ul li, li a {
+        width: 100%;
+    }
+    /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
+}
