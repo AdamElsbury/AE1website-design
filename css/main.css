@@ -1,10 +1,19 @@
+body {
+  margin: 0px;
+}
+
+
+
+
+
 /* Fluid Grid */
 
 .wrapper {
   display: table;
   width: 100%;
   text-align: center;
-  font-family: "Arial";
+  font-family: 'Roboto', sans-serif;
+  
 }
 .col-1 {
   width: 6.25%
@@ -57,8 +66,8 @@
 [class*='col-'] {
   float: left;
   padding-right: 10px;
-  border-style: solid;
-  border-color: white;
+  padding-top: 1px;
+  
  }
 * {
   box-sizing: border-box;
@@ -82,15 +91,46 @@
 
 /* Navigation bar top */
 
+nav {
+  font-family: 'Roboto', sans-serif;
+  
+  
+  
+}
 nav ul {
     list-style-type:none;
     margin:0;
     padding:0;
-    position: absolute;
-}
-
-nav li {
-    display:inline-block;
-    float: left;
+    display: flex;
+    flex-direction: row;
     
 }
+
+nav ul li {
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav li a {
+  display: block;
+  min-width: 16.6667%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(224, 220, 212, 0.5);
+  color: rgba(224, 220, 212, 0.5);
+  font-size: .85em;
+}
+
+/* Navigation bar top end */
+
+/* Section 1 */
+.section1 {
+  background-color: #002846;
+  min-height: 500px;
+  height: 100%;
+}
+/* Section 1 end */
