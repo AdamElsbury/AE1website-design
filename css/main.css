@@ -3,9 +3,6 @@ body {
 }
 
 
-
-
-
 /* Fluid Grid */
 
 .wrapper {
@@ -61,7 +58,8 @@ body {
   width: 93.75%
 }
 .col-16 {
-  width: 100%
+  width: 100%;
+  text-align: center;
 }
 [class*='col-'] {
   float: left;
@@ -77,15 +75,11 @@ body {
 }
 .row:before, 
 .row:after {
-     content:"";
-     clear:both;
+     content: "";
+     clear: both;
+     
  }
-.red {
-  background-color: red;
-}
-.blue {
-  background-color: blue;
-}
+ 
 
 /* Fluid Grid end */
 
@@ -134,3 +128,25 @@ nav li a {
   height: 100%;
 }
 /* Section 1 end */
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+/* Responsive Images */
+
+.midimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+img {
+  max-width: 100%;
+  min-width: 15%;
+}
+
