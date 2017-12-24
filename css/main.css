@@ -5,6 +5,8 @@ body {
 
 /* Fluid Grid */
 
+
+
 .wrapper {
   display: table;
   width: 100%;
@@ -12,6 +14,14 @@ body {
   font-family: 'Roboto', sans-serif;
   
 }
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
 .col-1 {
   width: 6.25%
 }
@@ -61,6 +71,7 @@ body {
   width: 100%;
   text-align: center;
 }
+
 [class*='col-'] {
   float: left;
   padding-right: 10px;
