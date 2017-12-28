@@ -2,18 +2,13 @@ body {
   margin: 0px;
 }
 
-
 /* Fluid Grid */
-
-
 
 .wrapper {
   display: table;
   width: 100%;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  position: relative;
-  z-index: 1;
 }
 
 /* For mobile phones: */
@@ -24,7 +19,6 @@ body {
     width: 100%;
 }
 }
-
 
     /* For desktop: */
 .col-1 {
@@ -77,8 +71,6 @@ body {
   text-align: center;
 }
 
-
-
 [class*='col-'] {
   float: left;
   padding-right: 10px;
@@ -97,7 +89,6 @@ body {
      clear: both;
      
  }
- 
 
 /* Fluid Grid end */
 
@@ -105,17 +96,14 @@ body {
 
 nav {
   font-family: 'Roboto', sans-serif;
-  
-  
-  
 }
+
 nav ul {
     list-style-type:none;
     margin:0;
     padding:0;
     display: flex;
     flex-direction: row;
-    
 }
 
 nav ul li {
@@ -174,7 +162,6 @@ nav {
   margin:0;
   padding:0;
   display: block;
-  
 }
 
 .navham li a {
@@ -185,27 +172,38 @@ nav {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   border-bottom: 1px solid rgba(224, 220, 212, 0.5);
-  color: rgba(224, 220, 212, 0.5);
+  color: white;
   font-size: .85em;
-  
+}
+
+.bggrey {
+  background-color: #080705;
+  color: white;
 }
 
 .bgwhite {
-  background-color: #FFFFF6;
-  color: black;
+  background-color: #D9D9D9;
+  color: #080705;
 }
 
 /* Nav bar mobile end */
 
-
 /* Section 1 Desktop*/
 .section1 {
   background-color: #002846;
-  min-height: 500px;
+  width:100%;
   height: 100%;
-  position: relative;
-  z-index: 2;
+  
 }
+
+.section2 {
+  background-color: red;
+  width:100%;
+  height: 100%;
+  min-height: 300px;
+}
+
+
 /* Section 1 Desktop end */
 
 /* Section 1 mobile*/
@@ -220,8 +218,6 @@ nav {
 }
 }
 /* Section 1 mobile end */
-
-
 
 .red {
   background-color: red;
@@ -262,4 +258,9 @@ img {
 }
 }
 /* Responsive images mobile end */
+
+.clickshow {
+  background-color: #002846;
+  border: none;
+}
 

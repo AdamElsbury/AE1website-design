@@ -4,33 +4,33 @@
         <script src="https://use.fontawesome.com/dd2c7681bd.js"></script>
         <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
         <link rel="stylesheet" href="/node_modules/onepage-scroll/onepage-scroll.css"/>
-        <script type="text/javascript" src="/javascript/main.js"></script>
         <script type="text/javascript" src="/node_modules/onepage-scroll/jquery.onepage-scroll.min.js"></script>
+        <script type="text/javascript" src="/node_modules/customjavascript/main.js"></script>
         <link rel="stylesheet" href="/css/main.css" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Adam Elsbury Web Developement Portfolio</title>
     </head>
     <body>
-        <div class="wrapper main"></div> <!-- Wrapper start -->
+        <div class="main"></div> <!-- Wrapper start -->
             
                 
                 <div class="row hamburger"> <!-- Nav Hamburger row start -->
-                <i class="fa fa-bars fa-2x" aria-hidden="true" style="padding-left: 15px; padding-top: 15px; padding-bottom:15px; color:rgba(224, 220, 212, 0.5);"></i>
+                <button class="fa fa-bars fa-2x clickshow" aria-hidden="true" style="padding-left: 15px; padding-top: 15px; padding-bottom:15px; color:rgba(224, 220, 212, 0.5);"></button>
                     <div class="col-16 navham"> 
                         <ul id="menu"> <!-- List menu for hamburger nav start -->
-                            <li><a href="#" class="bgwhite">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#" class="bgwhite">Work</a></li>
-                            <li><a href="#">Skills</a></li>
-                            <li><a href="#" class="bgwhite">Contact</a></li>
-                            <li><a href="#">Part 6</a></li>
+                            <li><a href="#" class="bggrey">Home</a></li>
+                            <li><a href="#" class="bggrey">About</a></li>
+                            <li><a href="#" class="bggrey">Work</a></li>
+                            <li><a href="#" class="bggrey">Skills</a></li>
+                            <li><a href="#" class="bggrey">Contact</a></li>
+                            <li><a href="#" class="bggrey">Part 6</a></li>
                         </ul> <!-- List menu for hamburger nav close -->
                     </div>
                 </div> <!-- Nav hamburger row end -->
             
             
-            <section class="section1"> <!--section 1 start -->
+            <section class="section1 section"> <!--section 1 start -->
                 <div class="row"> <!--NavRow start -->
                     <div class="col-4"></div> <!--NavBefore start + end -->
                     <nav class="col-8 nav"> <!-- Navbar start -->
@@ -50,11 +50,16 @@
                     
                         <div class="col-16"> <!-- Image div start -->
                             <img class="midimage" src="/media/logocustom.png">
-                            <i class="fa fa-chevron-down fa-4x" aria-hidden="true" style="color:rgba(224, 220, 212, 0.5); padding-top: 10px;"></i>
+                            
+                            <button class="fa fa-chevron-down fa-4x clickshow" aria-hidden="true" style="color:rgba(224, 220, 212, 0.5); padding-top: 10px;"></button>
                         </div>    <!-- Image div end -->
                     
                 </div> <!-- Image logo row end -->
             </section> <!--section1 end -->
+            
+            <section class="section section2">
+                <div class="col-16"></div>
+            </section>
             
         </div> <!-- Wrapper close -->
     </body>
