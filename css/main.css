@@ -12,15 +12,20 @@ body {
   width: 100%;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  
+  position: relative;
+  z-index: 1;
 }
 
 /* For mobile phones: */
+
+@media only screen and (max-width: 480px) {
+  
 [class*="col-"] {
     width: 100%;
 }
+}
 
-@media only screen and (min-width: 768px) {
+
     /* For desktop: */
 .col-1 {
   width: 6.25%
@@ -71,6 +76,8 @@ body {
   width: 100%;
   text-align: center;
 }
+
+
 
 [class*='col-'] {
   float: left;
@@ -130,15 +137,91 @@ nav li a {
   font-size: .85em;
 }
 
-/* Navigation bar top end */
+/* Navigation bar desktop end */
 
-/* Section 1 */
+/* Hamburger hidden on desktop */
+
+.hamburger {
+  display: none;
+}
+/* Nav bar mobile */
+
+@media only screen and (max-width: 667px) {
+  
+nav {
+  display: none; 
+}
+
+.hamburger {
+  display: block;
+  background-color: #002846;
+  z-index: 3;
+  height: auto;
+  left: auto;
+  right: auto;
+  position: relative;
+}
+}
+
+.navham {
+  font-family: 'Roboto', sans-serif;
+  position:relative;
+  z-index: 4;
+}
+
+.navham ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  display: block;
+  
+}
+
+.navham li a {
+  display: block;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(224, 220, 212, 0.5);
+  color: rgba(224, 220, 212, 0.5);
+  font-size: .85em;
+  
+}
+
+.bgwhite {
+  background-color: #FFFFF6;
+  color: black;
+}
+
+/* Nav bar mobile end */
+
+
+/* Section 1 Desktop*/
 .section1 {
   background-color: #002846;
   min-height: 500px;
   height: 100%;
+  position: relative;
+  z-index: 2;
 }
-/* Section 1 end */
+/* Section 1 Desktop end */
+
+/* Section 1 mobile*/
+
+@media only screen and (max-width: 667px) {
+.section1 {
+  background-color: #002846;
+  min-height: 250px;
+  height: 100%;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+}
+/* Section 1 mobile end */
+
+
 
 .red {
   background-color: red;
@@ -148,17 +231,35 @@ nav li a {
   background-color: blue;
 }
 
-/* Responsive Images */
+/* Responsive Images Desktop */
 
 .midimage {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 75%;
+  min-height: 100%;
+  padding-top: 100px;
 }
 
 img {
   max-width: 100%;
   min-width: 15%;
 }
+
+/* Responsive images desktop end */
+
+/* Responsive images mobile */
+
+@media only screen and (max-width: 667px) {
+.midimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  min-height: 100%;
+  padding-top: 20px;
+}
+}
+/* Responsive images mobile end */
 
