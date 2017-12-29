@@ -3,8 +3,6 @@
     <head>
         <script src="https://use.fontawesome.com/dd2c7681bd.js"></script>
         <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
-        <link rel="stylesheet" href="/node_modules/onepage-scroll/onepage-scroll.css"/>
-        <script type="text/javascript" src="/node_modules/onepage-scroll/jquery.onepage-scroll.min.js"></script>
         <script type="text/javascript" src="/node_modules/customjavascript/main.js"></script>
         <link rel="stylesheet" href="/css/main.css" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -12,11 +10,12 @@
         <title>Adam Elsbury Web Developement Portfolio</title>
     </head>
     <body>
-        <div class="main"></div> <!-- Wrapper start -->
+        <div class="wrapper"> <!-- Wrapper start -->
             
+            <section class="section1"> <!--section 1 start -->
                 
                 <div class="row hamburger"> <!-- Nav Hamburger row start -->
-                <button class="fa fa-bars fa-2x clickshow" aria-hidden="true" style="padding-left: 15px; padding-top: 15px; padding-bottom:15px; color:rgba(224, 220, 212, 0.5);"></button>
+                <button class="fa fa-bars fa-2x clickshow" aria-hidden="true" style="padding-left: 35px; padding-top: 15px; padding-bottom:15px; color:rgba(224, 220, 212, 0.5);"></button>
                     <div class="col-16 navham"> 
                         <ul id="menu"> <!-- List menu for hamburger nav start -->
                             <li><a href="#" class="bggrey">Home</a></li>
@@ -28,9 +27,7 @@
                         </ul> <!-- List menu for hamburger nav close -->
                     </div>
                 </div> <!-- Nav hamburger row end -->
-            
-            
-            <section class="section1 section"> <!--section 1 start -->
+                
                 <div class="row"> <!--NavRow start -->
                     <div class="col-4"></div> <!--NavBefore start + end -->
                     <nav class="col-8 nav"> <!-- Navbar start -->
@@ -50,15 +47,41 @@
                     
                         <div class="col-16"> <!-- Image div start -->
                             <img class="midimage" src="/media/logocustom.png">
-                            
+                            <p>Learn more about what I can do!</p>
                             <button class="fa fa-chevron-down fa-4x clickshow" aria-hidden="true" style="color:rgba(224, 220, 212, 0.5); padding-top: 10px;"></button>
                         </div>    <!-- Image div end -->
                     
                 </div> <!-- Image logo row end -->
+                
             </section> <!--section1 end -->
             
-            <section class="section section2">
-                <div class="col-16"></div>
+            <section class="section2"> <!-- Section 2 skills start -->
+                <div class="row">  <!-- skills row start-->
+                    <div class="col-16 skills"> <!-- Title start -->
+                        <h2>Here are my skills!</h2>
+                        <p>My main focus is in the Front end and design process of creating websites</p>
+                    </div> <!-- title end -->
+                </div><!-- row end -->
+                
+                <div class="row"> <!-- -->
+                    <div class="col-2"></div>
+                    <div class="col-4 skills">
+                        <i class="fa fa-code fa-4x" aria-hidden="true" style="color:#FED766;"></i>
+                        <h2>Coding</h2>
+                        <p>I am proficient with HTML5, CSS3, Javascript and MySQL. I mostly enjoy coding websites from scratch but I am also able to use frameworks such as Skeleton, Bootstrap and Jquery.</p>
+                    </div>
+                    <div class="col-4 skills">
+                        <i class="fa fa-file-image-o fa-4x" aria-hidden="true" style="color:#FED766;"></i>
+                        <h2>UX/UI Design</h2>
+                        <p>Using Adobe software I am able to sketch up design prototypes to aid Website Design. I like to focus on Information Architecture and coming up with the most efficient ways to display what the user wants to see, where they want to see it.</p>
+                    </div>
+                    <div class="col-4 skills">
+                        <i class="fa fa-lightbulb-o fa-4x" aria-hidden="true" style="color:#FED766;"></i>
+                        <h2>Problem Solving</h2>
+                        <p>My main passion within Web Developement is solving the many problems that arise during a project. I am able to quickly think up creative solutions and thrive when working under pressure.</p>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
             </section>
             
         </div> <!-- Wrapper close -->
