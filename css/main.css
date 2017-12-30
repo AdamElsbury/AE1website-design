@@ -201,15 +201,15 @@ nav {
 /* Section 2 desktop */
 .section2 {
   background-color: #fff;
-  width:100%;
-  min-height: 300px;
+  width: 100%;
+  min-height: 600px;
   color: #93a4aa;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
 
 .skills {
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 /* Section 2 Desktop end */
@@ -274,4 +274,9 @@ img {
 
 h1, h2, h3 {
   color: #252a30;
+}
+
+.padleftright {
+  padding-right: 10px;
+  padding-left: 10px;
 }
