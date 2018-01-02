@@ -210,20 +210,24 @@ nav {
   font-weight: 100;
 }
 
+/* Section 2 Desktop end */
+
+/* section 3 desktop end */
+
 .section3 {
-  background-color: #077187;
+  background-color: #f7f7f7; 
   width: 100%;
   min-height: 600px;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  color: #fff;
+  color: #93a4aa;
 }
+
+/* Section 3 Desktop end */
 
 .skills {
   padding-top: 60px;
 }
-
-/* Section 2 Desktop end */
 
 /* Section 1 mobile*/
 
@@ -262,6 +266,12 @@ img {
   min-width: 15%;
 }
 
+.roundimage {
+  border-radius: 55%;
+  width: auto;
+  margin-left: 20px;
+  margin-top: 30px;
+}
 /* Responsive images desktop end */
 
 /* Responsive images mobile */
@@ -278,10 +288,36 @@ img {
 }
 /* Responsive images mobile end */
 
+/* buttons */
+
 .clickshow {
   background-color: #002846;
   border: none;
 }
+
+.buttonlink {
+  font-weight: bold;
+  border: 2px solid #FED766;
+  background-color: transparent;
+  color: #252a30;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+  letter-spacing: 0;
+  border-radius: 50px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 20px 10px 20px;
+}
+
+.buttonlink:hover {
+  padding: 10px 30px 10px 30px;
+  border: 2px solid #252a30;
+  color: #FED766;
+  background-color: #252a30;
+
+}
+
+/* Buttons end */
 
 h1, h2, h3 {
   color: #252a30;
@@ -291,3 +327,5 @@ h1, h2, h3 {
   padding-right: 10px;
   padding-left: 10px;
 }
+
+
