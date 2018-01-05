@@ -233,7 +233,7 @@ nav {
 .section4 {
   background-color: #fff;
   width: 100%;
-  min-height: 900px;
+  min-height: 250px;
   color: #93a4aa;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -241,6 +241,29 @@ nav {
 }
 
 /* Section 4 desktop end*/
+
+/*section 5 desktop*/
+
+.section5 {
+  background-color: #f7f7f7;
+  width: 100%;
+  min-height: 600px;
+  color: #252a30;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.section6 {
+  background-color: #FED766;
+  width: 100%;
+  min-height: 350px;
+  color: #252a30;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
 
 .skills {
   padding-top: 60px;
@@ -290,6 +313,7 @@ img {
   width: auto;
   margin-left: 20px;
   margin-top: 30px;
+  box-shadow: 5px 10px 8px #888888;
 }
 
 /* Responsive images desktop end */
@@ -337,11 +361,51 @@ img {
 
 }
 
+.buttonlink2 {
+  font-weight: bold;
+  border: 2px solid #252a30;
+  background-color: transparent;
+  color: #252a30;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+  letter-spacing: 0;
+  border-radius: 50px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 20px 10px 20px;
+  margin-top: 20px
+}
+
+.buttonlink2:hover {
+  padding: 10px 30px 10px 30px;
+  border: 2px solid #252a30;
+  color: #FED766;
+  background-color: #252a30;
+
+}
 /* Buttons end */
 
-h1, h2, h3 {
+h1 {
   color: #252a30;
+  font-weight: 400;
+  font-size: 1.9em
 }
+
+h2 {
+  color: #252a30;
+  font-weight: 400;
+  font-size: 1.8em
+}
+h3 {
+  color: #252a30;
+  font-weight: 400;
+  font-size: 1.4em
+}
+
+p {
+  font-weight: lighter;
+}
+
 
 /* Positional rules*/
 
@@ -364,5 +428,29 @@ h1, h2, h3 {
   overflow: hidden;
 }
 
+/*positional rules close*/
 
+/*Form setion 6 start*/
+.form1 {
+  padding-top: 30px;
+  display: none;
+}
 
+.form1 ul {
+  list-style: none;
+}
+
+input {
+  width: 50%;
+  padding: 15px 10px 15px 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.submit input {
+  width: 25%;
+}
+.bigbox {
+  height: 200px;
+}
