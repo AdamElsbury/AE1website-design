@@ -14,7 +14,7 @@ body {
 
 /* For mobile phones: */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 667px) {
   
 [class*="col-"] {
     width: 100%;
@@ -142,7 +142,7 @@ nav li a {
 @media only screen and (max-width: 667px) {
   
 nav {
-  display: none; 
+  display: none;
 }
 
 .hamburger {
@@ -274,7 +274,6 @@ nav {
 @media only screen and (max-width: 667px) {
 .section1 {
   background-color: #002846;
-  min-height: 250px;
   height: 100%;
   padding-top: 20px;
   margin-bottom: 20px;
