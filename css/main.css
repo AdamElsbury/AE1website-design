@@ -12,17 +12,6 @@ body {
   font-weight: lighter;
 }
 
-/* For mobile phones: */
-
-@media only screen and (min-width: 667px) {
-  
-[class*="col-"] {
-    width: 100%;
-    float: left;
-}
-}
-
-    /* For desktop: */
 .col-1 {
   width: 6.25%
 }
@@ -83,9 +72,6 @@ body {
   box-sizing: border-box;
 }
 
-[class*='col-']:last-of-type {
-  padding-right: 0;
-}
 .row:before, 
 .row:after {
      content: "";
@@ -138,23 +124,6 @@ nav li a {
   display: none;
 }
 /* Nav bar mobile */
-
-@media only screen and (max-width: 667px) {
-  
-nav {
-  display: none;
-}
-
-.hamburger {
-  display: block;
-  background-color: #002846;
-  z-index: 3;
-  height: auto;
-  left: auto;
-  right: auto;
-  position: relative;
-}
-}
 
 .navham {
   font-family: 'Roboto', sans-serif;
@@ -269,18 +238,6 @@ nav {
   padding-top: 60px;
 }
 
-/* Section 1 mobile*/
-
-@media only screen and (max-width: 667px) {
-.section1 {
-  background-color: #002846;
-  height: 100%;
-  padding-top: 20px;
-  margin-bottom: 20px;
-}
-}
-/* Section 1 mobile end */
-
 .red {
   background-color: red;
 }
@@ -316,20 +273,6 @@ img {
 }
 
 /* Responsive images desktop end */
-
-/* Responsive images mobile */
-
-@media only screen and (max-width: 667px) {
-.midimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 75%;
-  min-height: 100%;
-  padding-top: 20px;
-}
-}
-/* Responsive images mobile end */
 
 /* buttons */
 
@@ -384,6 +327,8 @@ img {
 }
 /* Buttons end */
 
+/*Responsive typography*/
+
 h1 {
   color: #252a30;
   font-weight: 400;
@@ -403,6 +348,7 @@ h3 {
 
 p {
   font-weight: lighter;
+  font-size: 1.2vw;
 }
 
 
@@ -452,4 +398,110 @@ input {
 }
 .bigbox {
   height: 200px;
+}
+
+/*Form close*/
+
+/* Mobile Styles*/
+
+/*Columns to fill mobile screens*/
+
+@media only screen and (max-width: 667px) {
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+}
+}
+
+/*Hide nav bar and display hamburger on mobile*/
+
+@media only screen and (max-width: 667px) {
+  
+.nav {
+  display: none;
+}
+
+.hamburger {
+  display: block;
+  background-color: #002846;
+  z-index: 3;
+  height: auto;
+  left: auto;
+  right: auto;
+  position: relative;
+  padding-right: 0px;
+}
+
+
+}
+
+/*Section 1 mobile*/
+
+@media only screen and (max-width: 667px) {
+.section1 {
+  background-color: #002846;
+  min-height: 520px;
+  height: 100%;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+}
+
+/* Responsive images mobile */
+
+@media only screen and (max-width: 667px) {
+.midimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  min-height: 100%;
+  padding-top: 20px;
+}
+
+.mobilehidden {
+  display: none;
+}
+}
+
+/*General body rules*/
+
+@media only screen and (max-width: 667px) {
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.wrapper {
+  display: table;
+  width: 100%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  height: 100%;
+}
+}
+
+@media only screen and (max-width: 667px) {
+p {
+  font-size: 3.4vw;
+}
+
+h1 {
+  color: #252a30;
+  font-weight: 400;
+  font-size: 3vw;
+}
+
+h2 {
+  color: #252a30;
+  font-weight: 400;
+  font-size: 5vw;
+}
+h3 {
+  color: #252a30;
+  font-weight: 400;
+  font-size: 4.5vw;
+}
 }
