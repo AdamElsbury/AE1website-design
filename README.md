@@ -1,6 +1,10 @@
 # AE1website-design
 This is the github repository for submitting the AE2 portion of the assignment. It is a digital CV/portfolio for my Web Development skills. The website is a single, static page with 6 different sections covering the different relevent fields of information. The website is live and can be found at the following URL
 
+The website can be found at: https://adamelsbury.github.io/AE1website-design/pages/portfolio.html
+
+The High Fidelity wireframes can be found at: https://wireframe.cc/pro/pp/8ff421e14134919
+
 The Google HTML/CSS style guide has been adhered to for the project and can be found below;
 
 https://google.github.io/styleguide/htmlcssguide.html
